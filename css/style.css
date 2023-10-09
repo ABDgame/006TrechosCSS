@@ -10,5 +10,14 @@ body
 {
   display: flex;
   justify-content: center;
-  
+  align-items: center;
+  min-height: 100vh;
+  background: #222;
+  overflow: hidden;
+}
+.container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
