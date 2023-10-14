@@ -8,7 +8,9 @@
 }
 body
 {
-  background: #252839;
+  background: url("VINHETA.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -58,14 +60,14 @@ body
   text-transform: uppercase;
   font-size: 8em;
   font-weight: 800;
-  -webkit-text-stroke: 2px #000;
+  -webkit-text-stroke: 3px #000;
   text-shadow: 0 0 50px rbga(0,0,0,0.5);
 }
 .box div span:nth-child(3n+2):before
 {
-  color: #e3f2fddd;
+  color: #252839;
 }
 .box div span:nth-child(3n+3):before
 {
-  color: #fce4ecdd;
+  color: #e3f2fddd;
 }
